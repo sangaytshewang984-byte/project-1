@@ -1,9 +1,9 @@
-import express from 'express'
+import express from 'express';
 import mongoose from 'mongoose';
 
 const app = express();
 
-mongoose.connect('mongodb+srv://pema:skNUW3dT8R92uh61@cluster0.ozlznbn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://Sangay123:Sangay@123@inventory-cluster.zgytgwq.mongodb.net/?retryWrites=true&w=majority&appName=Inventory-Cluster')
   .then(() => console.log('Connected to MongoDB!'))
   .catch((err) => console.error('MongoDB connection error:', err));
 
